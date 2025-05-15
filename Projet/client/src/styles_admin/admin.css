@@ -1,0 +1,68 @@
+body {
+    background-color: #f5fff6;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .admin-layout {
+    min-height: 100vh;
+    background-color: #f5fff6;
+    display: flex;
+  }
+  
+  .sidebar-container {
+    width: 240px;
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+  }
+  
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .topbar {
+    background-color: #e8f5e9;
+    padding: 15px 25px;
+    border-bottom: 1px solid #c8e6c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .topbar-title {
+    font-weight: bold;
+    color: #2e7d32;
+    font-size: 1.2rem;
+  }
+  
+  .topbar-user {
+    font-weight: 600;
+    color: #388e3c;
+  }
+  
+  .admin-content {
+    padding: 30px;
+  }
+  
+  .stat-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-icon {
+    font-size: 1.8rem;
+  }
+  
+  .chart-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.05);
+  }
